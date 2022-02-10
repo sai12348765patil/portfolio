@@ -284,16 +284,17 @@ padding: 100px 0;
 
 .projects{
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     text-align: center; 
-    gap: 7%;
+    gap: 6%;
     width: 100%;
 }
 
 .projects>div>img{
-    height: 300px;
-    width: 400px;
+    height: 250px;
+    width: 350px;
     border-radius: 10px;
 }
 
@@ -304,10 +305,11 @@ padding: 100px 0;
 }
 .projects>div{
     margin-top: 10px;
+    
 }
 .projects>div>div>a{
-    font-size: 20px;
-   margin-left: 15px;
+    font-size: 18px;
+   /* margin-left: 15px; */
    background: crimson;
    padding: 10px;
    border-radius: 20px;
