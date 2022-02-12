@@ -292,6 +292,12 @@ padding: 100px 0;
     width: 100%;
 }
 
+.projects>div{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 10px;
+    height: 350px;
+}
+
 .projects>div>img{
     height: 250px;
     width: 350px;
@@ -303,10 +309,7 @@ padding: 100px 0;
     padding: 10px;
     font-weight: 500;
 }
-.projects>div{
-    margin-top: 10px;
-    
-}
+
 .projects>div>div>a{
     font-size: 18px;
    /* margin-left: 15px; */
@@ -346,6 +349,7 @@ padding: 100px 0;
 .skills img{
     height: 200px;
     width: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 
@@ -494,6 +498,18 @@ transition: all 03s ease;
     color: crimson;
     background: none;
 }
+
+
+/* footer */
+footer{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
 
 
 
@@ -712,10 +728,11 @@ transition: all 03s ease;
     .projects>div>div>a{
         font-size: 10px;
        margin-left: 15px;
-       background: rgb(216, 107, 129);
+       background: crimson;
        padding: 10px;
        border-radius: 20px;
     }
+    .projects>div{
+        height: 180px;
+    }
 }
-
-
